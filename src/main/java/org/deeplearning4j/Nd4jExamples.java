@@ -9,6 +9,7 @@ import org.nd4j.linalg.indexing.BooleanIndexing;
 import org.nd4j.linalg.indexing.conditions.Conditions;
 import org.nd4j.linalg.indexing.functions.Value;
 
+import java.awt.image.DataBuffer;
 import java.util.Arrays;
 
 /**
@@ -22,6 +23,9 @@ import java.util.Arrays;
  */
 class Nd4jExamples {
     public static void main(String[] args) {
+
+//        Nd4j.ENFORCE_NUMERICAL_STABILITY = true;
+//        Nd4j.dtype = org.nd4j.linalg.api.buffer.DataBuffer.DOUBLE;
 
         INDArray a111 = Nd4j.ones(4);
         INDArray a112 = Nd4j.zeros(4);
