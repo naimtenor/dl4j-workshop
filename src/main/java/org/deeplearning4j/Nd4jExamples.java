@@ -27,11 +27,12 @@ class Nd4jExamples {
 //        Nd4j.ENFORCE_NUMERICAL_STABILITY = true;
 //        Nd4j.dtype = org.nd4j.linalg.api.buffer.DataBuffer.DOUBLE;
 
-        INDArray a111 = Nd4j.ones(4);
-        INDArray a112 = Nd4j.zeros(4);
+//        INDArray a111 = Nd4j.ones(4);
+//        INDArray a112 = Nd4j.zeros(4);
+//
+//        System.out.println(Nd4j.concat(0, a111, a112));
+//        System.out.println(Nd4j.cumsum(a111));
 
-        System.out.println(Nd4j.concat(0, a111, a112));
-        System.out.println(Nd4j.cumsum(a111));
         /* Create a row vector with the specified number of columns. */
         INDArray arr = Nd4j.create(4);  // Nd4j.zeros(4) equal
         System.out.println("First arr : " + arr);
