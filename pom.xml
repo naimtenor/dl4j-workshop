@@ -27,6 +27,36 @@
       <artifactId>nd4j-jblas</artifactId>
       <version>${nd4j.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.nd4j</groupId>
+      <artifactId>canova-data</artifactId>
+      <version>${canova.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.nd4j</groupId>
+      <artifactId>canova-data-audio</artifactId>
+      <version>${canova.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.nd4j</groupId>
+      <artifactId>canova-data-image</artifactId>
+      <version>${canova.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.nd4j</groupId>
+      <artifactId>canova-nd4j-audio</artifactId>
+      <version>${canova.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.nd4j</groupId>
+      <artifactId>canova-nd4j-timeseries</artifactId>
+      <version>${canova.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.nd4j</groupId>
+      <artifactId>canova-nd4j-nlp</artifactId>
+      <version>${canova.version}</version>
+    </dependency>
   </dependencies>
 
   <build>
