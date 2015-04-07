@@ -18,7 +18,7 @@
     <nd4j.version>0.0.3.5.5.3-SNAPSHOT</nd4j.version>
     <canova.version>0.0.0.2-SNAPSHOT</canova.version>
     <!--<scala.version>2.10.4</scala.version>-->
-    <!--<dl4j.version>0.0.3.3.3.alpha1-SNAPSHOT</dl4j.version>-->
+    <dl4j.version>0.0.3.3.3.alpha1-SNAPSHOT</dl4j.version>
   </properties>
 
   <dependencies>
@@ -62,6 +62,11 @@
       <groupId>org.nd4j</groupId>
       <artifactId>canova-nd4j-nlp</artifactId>
       <version>${canova.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.deeplearning4j</groupId>
+      <artifactId>deeplearning4j-core</artifactId>
+      <version>${dl4j.version}</version>
     </dependency>
   </dependencies>
 
