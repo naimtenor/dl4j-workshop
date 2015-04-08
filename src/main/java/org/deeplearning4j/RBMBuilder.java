@@ -9,7 +9,9 @@ import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
 import org.deeplearning4j.nn.layers.factory.LayerFactories;
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.deeplearning4j.nn.weights.WeightInit;
+import org.deeplearning4j.optimize.listeners.ComposableIterationListener;
 import org.deeplearning4j.optimize.listeners.ScoreIterationListener;
+import org.deeplearning4j.plot.iterationlistener.NeuralNetPlotterIterationListener;
 import org.nd4j.linalg.api.rng.distribution.Distribution;
 import org.nd4j.linalg.dataset.DataSet;
 import org.nd4j.linalg.lossfunctions.LossFunctions;
@@ -42,9 +44,9 @@ public class RBMBuilder {
 //                .momentumAfter()
                 .useAdaGrad(true)
                 .resetAdaGradIterations(1)
-                .iterations(100)
+                .iterations(5)
                 .l2(2e-4)
-                .iterationListener(new ScoreIterationListener(1))
+                .iterationListener(new ComposableIterationListener(new NeuralNetPlotterIterationListener(1), new ScoreIterationListener(1)))
 //                .dropOut()
                 .activationFunction("tanh")
                 .numLineSearchIterations(10)
