@@ -48,7 +48,7 @@ public class RBMExample {
                 .optimizationAlgo(OptimizationAlgorithm.ITERATION_GRADIENT_DESCENT)
                 .lossFunction(LossFunctions.LossFunction.RMSE_XENT)
                 .learningRate(1e-3f)
-//                .iterations(40)
+                .iterations(10)
                 .nIn(d.numInputs()).nOut(nOut).layerFactory(layerFactory).build();
 
         RBM rbm = layerFactory.create(conf);

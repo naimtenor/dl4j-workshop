@@ -38,7 +38,7 @@ public class DBNExample {
         Nd4j.MAX_SLICES_TO_PRINT = -1;
         Nd4j.MAX_ELEMENTS_PER_SLICE = -1;
         MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
-                .iterations(100).layerFactory(new PretrainLayerFactory(RBM.class))
+                .iterations(5).layerFactory(new PretrainLayerFactory(RBM.class))
                 .iterationListener(new ComposableIterationListener(new ScoreIterationListener(1), new NeuralNetPlotterIterationListener(1)))
                 .weightInit(WeightInit.DISTRIBUTION).dist(Nd4j.getDistributions().createUniform(0,1))
                 .activationFunction("tanh").momentum(0.9)
