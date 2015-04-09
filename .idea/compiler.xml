@@ -22,10 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="dl4j-workshop" />
+        <module name="anomaly-detection" />
+        <module name="canova-exercise" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="anomaly-detection" target="1.7" />
+      <module name="canova-exercise" target="1.7" />
       <module name="dl4j-workshop" target="1.7" />
     </bytecodeTargetLevel>
   </component>

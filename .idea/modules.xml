@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/anomaly-detection/anomaly-detection.iml" filepath="$PROJECT_DIR$/anomaly-detection/anomaly-detection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canova-exercise/canova-exercise.iml" filepath="$PROJECT_DIR$/canova-exercise/canova-exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/dl4j-workshop.iml" filepath="$PROJECT_DIR$/dl4j-workshop.iml" />
     </modules>
   </component>
