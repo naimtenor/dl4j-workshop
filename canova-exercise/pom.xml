@@ -12,22 +12,4 @@
 
     <name>canova-exercise</name>
     <url>http://maven.apache.org</url>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.nd4j</groupId>
-            <artifactId>nd4j-jblas</artifactId>
-            <version>${nd4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.nd4j</groupId>
-            <artifactId>canova-nd4j-image</artifactId>
-            <version>${canova.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.nd4j</groupId>
-            <artifactId>canova-data-audio</artifactId>
-            <version>${canova.version}</version>
-        </dependency>
-    </dependencies>
 </project>

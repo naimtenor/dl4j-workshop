@@ -13,11 +13,11 @@
     <name>anomaly-detection</name>
     <url>http://maven.apache.org</url>
 
-    <dependencies>
+    <!--<dependencies>
         <dependency>
             <groupId>org.nd4j</groupId>
             <artifactId>canova-nd4j-image</artifactId>
             <version>${canova.version}</version>
         </dependency>
-    </dependencies>
+    </dependencies>-->
 </project>
